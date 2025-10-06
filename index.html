@@ -1,10 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi página</title>
+  <meta charset="UTF-8">
+  <title>Horario del Instituto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      text-align: center;
+      padding: 10px;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
 </head>
 <body>
-    <h1>¡Hola Mundo!</h1>
-    <p>Esta es mi primera página creada con HTML.</p>
+  <h1>Horario del Instituto</h1>
+  <table>
+    <tr>
+      <th>Hora</th>
+      <th>Lunes</th>
+      <th>Martes</th>
+      <th>Miércoles</th>
+      <th>Jueves</th>
+      <th>Viernes</th>
+    </tr>
+    <tr>
+      <td>08:15 - 09:15</td>
+      <td>HLC</td>
+      <td>SRI</td>
+      <td>SAD</td>
+      <td>ASO</td>
+      <td>IPE II</td>
+    </tr>
+    <tr>
+      <td>09:15 - 10:15</td>
+      <td>SGBD</td>
+      <td>SGBD</td>
+      <td>ASO</td>
+      <td>ASO</td>
+      <td>IP II</td>
+    </tr>
+    <tr>
+      <td>10:15 - 11:15</td>
+      <td>HLC</td>
+      <td>IPII</td>
+      <td>IAW</td>
+      <td>ASO</td>
+      <td>ASO</td>
+    </tr>
+    <tr>
+      <td>11:15 - 11:45</td>
+      <td colspan="5">Recreo</td>
+    </tr>
+    <tr>
+      <td>11:45 - 12:45</td>
+      <td>SGBD</td>
+      <td>SAD</td>
+      <td>SAD</td>
+      <td>HLC</td>
+      <td>SRI</td>
+    </tr>
+    <tr>
+      <td>12:45 - 13:45</td>
+      <td>Biología</td>
+      <td>Física</td>
+      <td>Historia</td>
+      <td>Matemáticas</td>
+      <td>Inglés</td>
+    </tr>
+    <tr>
+      <td>13:45 - 14:45</td>
+      <td>Educación Física</td>
+      <td>Tutoría</td>
+      <td>Tecnología</td>
+    </tr>
+  </table>
 </body>
 </html>
+
